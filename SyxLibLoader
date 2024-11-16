@@ -220,7 +220,7 @@ do
         BreakAllLoops = true
 
         for _, UI in next, CoreGui:GetChildren() do
-            if UI.Name == 'Visual Command UI Library | .gg/puxxCphTnK' then
+            if UI.Name == 'Visual Command UI Library | SyxHub' then
                 for _, Item in next, UI.Main:GetChildren() do
                     if Item.Name ~= 'MainCorner' and Item.Name ~= 'MainStroke' then
                         Item:Destroy()
@@ -357,7 +357,7 @@ function Library:CreateWindow(Properties)
     -- // Create Elements
     local Container = Utility:Create('ScreenGui', {
         Parent = CoreGui,
-        Name = 'Visual Command UI Library | .gg/puxxCphTnK',
+        Name = 'Visual Command UI Library | SyxHub',
         ResetOnSpawn = false
     }, {
         Utility:Create('Frame', {
